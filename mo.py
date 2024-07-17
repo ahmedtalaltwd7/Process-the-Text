@@ -35,7 +35,7 @@ def answer_questions(documents, questions, tokenizer, model):
 if __name__ == "__main__":
     # Specify the directory containing documents and the model directory
     docs_directory = 'doc'
-    model_directory = 'modv'  # Path to the mod folder
+    model_directory = 'mod'  # Path to the mod folder
 
     # Load documents
     documents = load_documents(docs_directory)
